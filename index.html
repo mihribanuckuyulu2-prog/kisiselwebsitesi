@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mihriban Üçkuyulu — Ön Yüz Yazılım Geliştirme Portfolyosu</title>
+  <meta name="description" content="Anadolu Üniversitesi Ön Yüz Yazılım Geliştirme öğrencisi Mihriban Üçkuyulu'nun kişisel portfolyosu: projeler, yetenekler ve kariyer hedefleri." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Sora:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== GRAIN / ATMOSFER ===== -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- ===== NAVİGASYON ===== -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo">
+      <span class="nav__logo-mark">MÜ</span>
+      <span class="nav__logo-text">mihriban<span class="accent">.dev</span></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#hakkimda" class="nav__link">Hakkımda</a>
+      <a href="#projeler" class="nav__link">Projeler</a>
+      <a href="#yetenekler" class="nav__link">Yetenekler</a>
+      <a href="#hedefler" class="nav__link">Hedefler</a>
+      <a href="#iletisim" class="nav__link nav__link--cta">İletişim</a>
+    </nav>
+
+    <button class="nav__burger" id="burger" aria-label="Menüyü aç/kapat" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__orbit" aria-hidden="true">
+      <div class="hero__ring hero__ring--1"></div>
+      <div class="hero__ring hero__ring--2"></div>
+      <div class="hero__core"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-reveal>
+        <span class="dot"></span> ÖN YÜZ YAZILIM GELİŞTİRME ÖĞRENCİSİ &nbsp;/&nbsp; ANADOLU ÜNİVERSİTESİ
+      </p>
+
+      <h1 class="hero__title">
+        <span class="hero__line" data-reveal data-delay="1">Merhaba, ben</span>
+        <span class="hero__line hero__line--name" data-reveal data-delay="2">Mihriban</span>
+        <span class="hero__line hero__line--last" data-reveal data-delay="3">Üçkuyulu<span class="accent">_</span></span>
+      </h1>
+
+      <p class="hero__desc" data-reveal data-delay="4">
+        Anadolu Üniversitesi Ön Yüz Yazılım Geliştirme programında eğitimime devam eden,
+        teknoloji odaklı ve gelişim azmi yüksek bir öğrenciyim. Sadece çalışan değil,
+        aynı zamanda <span class="accent">kullanıcı dostu</span> ve estetik açıdan başarılı
+        arayüzler tasarlıyorum.
+      </p>
+
+      <div class="hero__actions" data-reveal data-delay="5">
+        <a href="#projeler" class="btn btn--primary">Projeleri Gör</a>
+        <a href="#iletisim" class="btn btn--ghost">İletişime Geç</a>
+      </div>
+
+      <div class="hero__stats" data-reveal data-delay="6">
+        <div class="hero__stat"><strong>HTML5</strong><span>Anlamlı & erişilebilir yapılar</span></div>
+        <div class="hero__stat"><strong>CSS3</strong><span>Modern & mobil uyumlu arayüz</span></div>
+        <div class="hero__stat"><strong>JS</strong><span>Etkileşim & dinamizm</span></div>
+      </div>
+    </div>
+
+    <a href="#hakkimda" class="hero__scroll" aria-label="Aşağı kaydır">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-text">kaydır</span>
+    </a>
+  </section>
+
+  <!-- ===== HAKKIMDA ===== -->
+  <section class="section" id="hakkimda">
+    <div class="section__head" data-reveal>
+      <span class="section__num">01</span>
+      <h2 class="section__title">Hakkımda</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__visual" data-reveal>
+        <div class="about__frame">
+          <div class="about__avatar">MÜ</div>
+          <div class="about__scan"></div>
+        </div>
+        <div class="about__tag about__tag--1">HTML5</div>
+        <div class="about__tag about__tag--2">CSS3</div>
+        <div class="about__tag about__tag--3">JavaScript</div>
+      </div>
+
+      <div class="about__text" data-reveal data-delay="2">
+        <p class="about__lead">
+          Anadolu Üniversitesi Ön Yüz Yazılım Geliştirme programında eğitimine devam eden,
+          <span class="accent">teknoloji odaklı</span> ve gelişim azmi yüksek bir öğrenciyim.
+        </p>
+        <p>
+          Öğrendiğim teorik bilgileri sürekli olarak kişisel projelerle pekiştiriyorum.
+          Odak noktam, sadece çalışan değil, aynı zamanda kullanıcı dostu ve estetik
+          açıdan başarılı web siteleri tasarlamaktır.
+        </p>
+        <p>
+          Mevcut ön yüz yetkinliklerimi sağlam bir temel olarak kabul ediyor ve uzun
+          vadede kendimi <span class="accent">Yazılım Mühendisliği</span> alanına
+          yönlendirmeyi hedefliyorum. Bu geçişi desteklemek için sadece tasarım ve
+          etkileşim odaklı değil; sistem mimarisi, veri yapıları ve algoritmalar
+          yönelik bilgi birikimimi derinleştirme konusunda kararlıyım.
+        </p>
+        <p>
+          Ayrıca Anadolu Üniversitesi Kariyer Kulübü'nde <span class="accent">bir buçuk yıldır</span>
+          Kurumsal İlişkiler Direktörlüğü görevini yürütüyorum.
+        </p>
+
+        <div class="about__grid">
+          <div class="about__item"><span class="about__label">Eğitim</span><span>Anadolu Üniversitesi</span></div>
+          <div class="about__item"><span class="about__label">Program</span><span>Ön Yüz Yazılım Geliştirme</span></div>
+          <div class="about__item"><span class="about__label">Odak</span><span>UI/UX &amp; Frontend</span></div>
+          <div class="about__item"><span class="about__label">Durum</span><span class="accent">Staj fırsatlarına açık</span></div>
+        </div>
+
+        <a href="#iletisim" class="btn btn--primary about__btn">Bana Ulaş</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJELER ===== -->
+  <section class="section" id="projeler">
+    <div class="section__head" data-reveal>
+      <span class="section__num">02</span>
+      <h2 class="section__title">Projeler</h2>
+    </div>
+
+    <div class="projects">
+      <article class="project" data-reveal>
+        <div class="project__index">001</div>
+        <div class="project__body">
+          <div class="project__top">
+            <h3 class="project__title">Aykut Büfe — Marmara Adası</h3>
+            <span class="project__year">Canlıda</span>
+          </div>
+          <p class="project__desc">
+            Marmara Adası'ndaki Aykut Büfe için hazırlanan tanıtım web sitesi.
+            Semantik HTML5 yapısı, flexbox tabanlı responsive tasarım, mobil menü
+            toggle ve scroll-reveal animasyonları; iletişim formu ve yayına alma dahil.
+          </p>
+          <div class="project__tags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Responsive</span><span class="tag">Netlify</span>
+          </div>
+        </div>
+        <span class="project__arrow" aria-hidden="true">→</span>
+      </article>
+
+      <article class="project" data-reveal data-delay="1">
+        <div class="project__index">002</div>
+        <div class="project__body">
+          <div class="project__top">
+            <h3 class="project__title">Kurumsal Belediye Sitesi</h3>
+            <span class="project__year">Çok sayfalı</span>
+          </div>
+          <p class="project__desc">
+            Haberler, etkinlikler, galeri, müdürlükler ve proje sayfalarını içeren
+            çok bölümlü kurumsal web sitesi. Ortak stil mimarisiyle onlarca sayfanın
+            tutarlı ve mobil uyumlu tasarımı.
+          </p>
+          <div class="project__tags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Responsive</span><span class="tag">Çok Sayfalı Yapı</span>
+          </div>
+        </div>
+        <span class="project__arrow" aria-hidden="true">→</span>
+      </article>
+
+      <article class="project" data-reveal data-delay="2">
+        <div class="project__index">003</div>
+        <div class="project__body">
+          <div class="project__top">
+            <h3 class="project__title">Araba Yarışı Oyunu</h3>
+            <span class="project__year">Vanilla JS</span>
+          </div>
+          <p class="project__desc">
+            Kütüphane kullanmadan, saf JavaScript ile geliştirilmiş klavye kontrollü
+            araba yarışı oyunu. Oyun döngüsü, çarpışma kontrolü ve skor takibi
+            sıfırdan kodlandı.
+          </p>
+          <div class="project__tags">
+            <span class="tag">Vanilla JavaScript</span><span class="tag">Oyun Mantığı</span><span class="tag">DOM</span>
+          </div>
+        </div>
+        <span class="project__arrow" aria-hidden="true">→</span>
+      </article>
+
+      <article class="project" data-reveal data-delay="3">
+        <div class="project__index">004</div>
+        <div class="project__body">
+          <div class="project__top">
+            <h3 class="project__title">Kişisel Portfolyo Sitesi</h3>
+            <span class="project__year">Bu site</span>
+          </div>
+          <p class="project__desc">
+            Sıfırdan tasarlanan, koyu temalı bu portfolyo; scroll animasyonları,
+            mobil uyumlu menü ve form doğrulama ile öğrendiklerimin bir arada
+            uygulandığı kişisel projem.
+          </p>
+          <div class="project__tags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Responsive</span>
+          </div>
+        </div>
+        <span class="project__arrow" aria-hidden="true">→</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== YETENEKLER ===== -->
+  <section class="section" id="yetenekler">
+    <div class="section__head" data-reveal>
+      <span class="section__num">03</span>
+      <h2 class="section__title">Yetenekler</h2>
+    </div>
+
+    <div class="skills">
+      <div class="skills__col" data-reveal>
+        <h3 class="skills__group">Temel Yetkinlikler</h3>
+        <div class="skill">
+          <div class="skill__row"><span>HTML5 (semantik &amp; erişilebilir)</span><span>%92</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="92"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill__row"><span>CSS3 (responsive arayüz)</span><span>%90</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="90"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill__row"><span>Vanilla JavaScript</span><span>%78</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="78"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill__row"><span>Mobil Uyumluluk (Responsive)</span><span>%88</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="88"></span></div>
+        </div>
+      </div>
+
+      <div class="skills__col" data-reveal data-delay="2">
+        <h3 class="skills__group">Geliştirme Alanları</h3>
+        <div class="skill">
+          <div class="skill__row"><span>UI/UX İlkeleri</span><span>%75</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="75"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill__row"><span>Erişilebilirlik (A11y)</span><span>%72</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="72"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill__row"><span>Git / Versiyon Kontrol</span><span>%70</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="70"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill__row"><span>Veri Yapıları &amp; Algoritmalar</span><span>%55</span></div>
+          <div class="skill__bar"><span class="skill__fill" data-level="55"></span></div>
+        </div>
+      </div>
+
+      <div class="skills__col" data-reveal data-delay="4">
+        <h3 class="skills__group">Araçlar & Teknolojiler</h3>
+        <div class="skill__chips">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">Vanilla JS</span>
+          <span class="chip">Flexbox</span>
+          <span class="chip">CSS Grid</span>
+          <span class="chip">Semantic HTML</span>
+          <span class="chip">DOM</span>
+          <span class="chip">Git</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">Figma</span>
+          <span class="chip">Chrome DevTools</span>
+          <span class="chip">Netlify</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HEDEFLER ===== -->
+  <section class="section" id="hedefler">
+    <div class="section__head" data-reveal>
+      <span class="section__num">04</span>
+      <h2 class="section__title">Hedefler</h2>
+    </div>
+
+    <div class="goals">
+      <article class="goal" data-reveal>
+        <span class="goal__num">01</span>
+        <h3 class="goal__title">Sağlam Ön Yüz Temeli</h3>
+        <p class="goal__desc">
+          HTML5, CSS3 ve Vanilla JavaScript yetkinliklerimi kişisel projelerle
+          sürekli pekiştirmek; kullanıcı dostu ve estetik arayüzler tasarlamayı
+          alışkanlık haline getirmek.
+        </p>
+      </article>
+
+      <article class="goal" data-reveal data-delay="1">
+        <span class="goal__num">02</span>
+        <h3 class="goal__title">Yazılım Mühendisliğine Geçiş</h3>
+        <p class="goal__desc">
+          Uzun vadede Yazılım Mühendisliği alanına yönelmek; sistem mimarisi,
+          veri yapıları ve algoritmalar yönelik bilgi birikimimi derinleştirmek.
+        </p>
+      </article>
+
+      <article class="goal" data-reveal data-delay="2">
+        <span class="goal__num">03</span>
+        <h3 class="goal__title">Ajans Deneyimi</h3>
+        <p class="goal__desc">
+          Kariyer hedefim; özellikle UI/UX ilkelerini uygulayan profesyonel bir
+          yazılım veya tasarım ajansında staj yaparak gerçek dünya deneyimi kazanmak.
+        </p>
+      </article>
+    </div>
+
+    <p class="goals__note" data-reveal data-delay="3">
+      <span class="accent">Network</span> kurmaya ve sektör profesyonelleriyle bilgi
+      alışverişine her zaman açığım.
+    </p>
+  </section>
+
+  <!-- ===== İLETİŞİM ===== -->
+  <section class="section section--contact" id="iletisim">
+    <div class="section__head" data-reveal>
+      <span class="section__num">05</span>
+      <h2 class="section__title">İletişim</h2>
+    </div>
+
+    <div class="contact">
+      <div class="contact__intro" data-reveal>
+        <p class="contact__lead">
+          Staj ve iş birliği için bana yazın.
+        </p>
+        <p class="contact__desc">
+          Sektör profesyonelleriyle tanışmaktan ve bilgi alışverişinden her zaman
+          memnuniyet duyarım. En geç 24 saat içinde dönüş yapıyorum.
+        </p>
+
+        <div class="contact__info">
+          <a href="mailto:mihribanuckuyulu.aukariyer@gmail.com" class="contact__line">
+            <span class="contact__label">E-posta</span>
+            mihribanuckuyulu.aukariyer@gmail.com
+          </a>
+          <div class="contact__line contact__line--static">
+            <span class="contact__label">Eğitim</span>
+            Anadolu Üniversitesi — Ön Yüz Yazılım Geliştirme
+          </div>
+          <div class="contact__line contact__line--static">
+            <span class="contact__label">Durum</span>
+            Staj fırsatlarına açık
+          </div>
+        </div>
+      </div>
+
+      <form class="form" id="contactForm" data-reveal data-delay="2" novalidate>
+        <div class="form__field">
+          <label for="name">Adınız</label>
+          <input type="text" id="name" name="name" placeholder="Ad Soyad" required />
+        </div>
+        <div class="form__field">
+          <label for="email">E-posta</label>
+          <input type="email" id="email" name="email" placeholder="ornek@mail.com" required />
+        </div>
+        <div class="form__field">
+          <label for="message">Mesajınız</label>
+          <textarea id="message" name="message" rows="5" placeholder="Nasıl yardımcı olabilirim?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary form__submit">Mesajı Gönder</button>
+        <p class="form__note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">mihriban<span class="accent">.dev</span></span>
+      <span class="footer__copy">© 2026 — Anadolu Üniversitesi · Ön Yüz Yazılım Geliştirme</span>
+      <a href="#hero" class="footer__top">↑ Başa dön</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
